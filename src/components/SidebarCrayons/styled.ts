@@ -2,19 +2,8 @@ import styled, { css } from 'styled-components'
 
 export const Section = styled.section`
   ${({ theme }) => css`
-    & > div {
+    .main {
       padding: 0;
-    }
-  `}
-`
-
-export const ImageWrapper = styled.div`
-  ${({ theme }) => css`
-    top: 0;
-    left: 0;
-
-    & > img {
-      display: none;
     }
   `}
 `
@@ -80,7 +69,7 @@ export const ButtonsWrapper = styled.div`
     display: flex;
     flex-direction: column;
 
-    gap: .8rem;
+    gap: 0.8rem;
 
     width: 100%;
 

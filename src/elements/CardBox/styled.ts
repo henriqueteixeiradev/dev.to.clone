@@ -1,7 +1,12 @@
 import styled, { css } from 'styled-components'
 
 export const ImageCardWrapper = styled.div`
-  ${({ theme }) => css``}
+  ${({ theme }) => css`
+    img {
+      border-top-left-radius: ${theme.border.radius};
+      border-top-right-radius: ${theme.border.radius};
+    }
+  `}
 `
 export const CardWrapper = styled.div`
   ${({ theme }) => css`

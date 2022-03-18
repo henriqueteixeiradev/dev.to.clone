@@ -10,16 +10,7 @@ import Button from 'elements/Button'
 export const SidebarCrayons = () => {
   return (
     <S.Section>
-      <CardBox>
-        <S.ImageWrapper>
-          <Image
-            src="/img/crayons.png"
-            alt="Imagem da postagem"
-            width={500}
-            height={210}
-          />
-        </S.ImageWrapper>
-
+      <CardBox image="/img/crayons.png">
         <S.HeadlineWrapper>
           <Link href="#">
             <a>
